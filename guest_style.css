@@ -1,0 +1,159 @@
+*{
+    margin: 0xp;
+    padding:0xp;
+    box-sizing: border-box;
+    /* position:static; */
+
+}
+nav{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(255, 255, 255);
+    font-family: 'poppins',sans-serif;
+}
+.logo{
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 20px;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.vl {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 25px;
+    position:static;
+    left: 50%;
+    margin-left: 3px;
+    top: 0;
+  }
+
+
+.nav-links{
+    display:flex;
+    justify-content:space-between;
+    /* align-items:center; */
+    width: 25%;
+    gap: 6px;
+
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family:georgia;
+}
+.logout{
+    display:flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.logout button{
+    background-color: #104c97;
+    color:whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-radius: 6px;
+
+}
+.book{
+    margin-left:-10px;
+    margin-top: -7px;   
+    padding: 10px;
+    background-color: #104c97;
+    color: black;
+}
+.container{
+    padding-left: 20px;
+}
+.book h1{
+    font-family: serif;
+}
+.book h1 span{
+    color: white;
+}
+.book input{
+    padding: 10px;
+    font-family:fantasy;
+}
+.book input:nth-child(5){
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+
+input{
+    outline: none;
+    border: none;
+}
+@media (min-width: 400px) {
+    form {
+      overflow: hidden;
+    }
+}
+.our_rooms h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.our_rooms{
+ max-width: 1200px;
+ margin: auto;
+ overflow:auto;
+    
+}
+.room{
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    float: left;
+    width: 350px;
+}
+.room img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.desc p{
+    text-transform: uppercase;
+    color:dark rgb(31, 31, 88);
+    margin-top: 10px;
+    padding-left: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.desc button{
+
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: #104c97;
+    color: whitesmoke;
+    font-size: large;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 15px;
+    outline: none;
+    align-items: center;
+
+}
+.space{
+    text-transform: uppercase;
+    padding-left: 40%;
+}
