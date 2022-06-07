@@ -1,0 +1,26 @@
+div.av_ro {
+    padding-top: 100px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border: 4px solid;
+    border-spacing: 3px;
+    margin-top: 10px;
+
+}
+
+table td {
+    padding: 20px;
+    background-color: #c5c5f8;
+    text-align: center;
+    border: 3px solid;
+    border-spacing: 3px;
+}
+
+table th {
+    border: 3px solid;
+    border-spacing: 3px;
+    background-color: aquamarine;
+}
