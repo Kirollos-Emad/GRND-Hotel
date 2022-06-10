@@ -8,7 +8,22 @@
         <link rel="stylesheet" href="styles/index-style.css">
     </head>
     <body>
-        <?php include("includes/templates/header.html"); ?>
+        <?php include("includes/templates/header.html"); 
+        echo $_SESSION["UserId"];
+        echo $_SESSION["UserId"];
+        echo $_SESSION["UserId"];
+        echo $_SESSION["UserId"];
+        echo $_SESSION["UserId"];
+        echo $_SESSION["UserId"];
+        echo $_SESSION["UserId"];
+        echo $_SESSION["UserId"];
+        echo $_SESSION["UserId"];
+        echo $_SESSION["UserId"];
+        echo $_SESSION["UserId"];
+        echo $_SESSION["UserId"];
+        
+        ?>
+        
 
     </body>
 </html>

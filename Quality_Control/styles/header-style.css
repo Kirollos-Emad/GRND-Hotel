@@ -7,8 +7,8 @@
 header {
     font-size: 25px;
     font-weight: bold;
-    background-color: #38444d;
-    color: white;
+    background-color: #010101;
+    color: rgb(0, 0, 0);
     width: 100%;
     position: fixed;
     display: flex;
@@ -56,7 +56,7 @@ li a,
 
 li a:hover,
 .dropdown:hover .dropbtn {
-    background-color: #768794;
+    background-color:gray;
     display: flex;
 }
 
